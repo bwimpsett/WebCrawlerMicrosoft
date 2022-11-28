@@ -1,14 +1,4 @@
-﻿/*
- * Assumptions made:
- * 1. I didn't count pure numbers as word. (e.g. 1986 is NOT counted as a word.)
- * 2. Any words ending with a grammatical character (e.g. Microsoft. ).
- * I removed the character and counted it with the rest of the words.
- * The only exception would be for a single ' (e.g. Gates' )
- * 3. I only used the paragraphs contained within the 'History' section.
- * I didn't use any of the headers or image captions.
-*/
-
-using System.Text;
+﻿using System.Text;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 
